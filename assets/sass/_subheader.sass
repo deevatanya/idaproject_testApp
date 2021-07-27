@@ -1,0 +1,48 @@
+.subheader
+  padding: 0 88px
+  margin-top: 98px
+  display: flex
+  justify-content: space-between
+  &_title
+    font-size: 32px
+    font-weight: 700
+    color: #1F1F1F
+.sort
+  margin-top: 10px
+  display: flex
+  justify-content: center
+  min-width: 161px
+  &_title
+    color: #1F1F1F
+    font-size: 16px
+    font-weight: 400
+    display: flex
+    cursor: pointer
+    &_value
+      color: #59606D
+      margin-left: 5px
+    &_img
+      display: flex
+      align-items: center
+      margin: 0 0 10px 4px
+  &_option
+    display: none
+    position: absolute
+    width: 161px
+    margin-top: 27px
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05)
+    border-radius: 8px
+    padding: 10px 0 12px 0
+    background-color: #fff
+    &_value
+      height: 24px
+      padding: 0 12px
+      color: #959DAD
+      font-size: 14px
+      font-weight: 400
+      cursor: pointer
+      &:hover
+        background: #F8F8F8
+        color: #1F1F1F
+  .active
+    display: block

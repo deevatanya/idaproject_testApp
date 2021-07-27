@@ -1,0 +1,36 @@
+
+.item
+  width: 264px
+  height: 272px
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05)
+  border-radius: 8px
+  padding: 16px
+  margin: 0 auto
+  margin-bottom: 16px
+  &_icons
+    display: flex
+    justify-content: space-between
+    &_star
+      display: flex
+      &_rating
+        font-weight: 700
+        position: relative
+        top: 3px
+        font-size: 10px
+        color: #F2C94C
+    &_cart > svg
+      cursor: pointer
+      &:hover path
+        fill: #1F1F1F
+  &_photo
+    height: 180px
+    display: flex
+    justify-content: center
+  &_title
+    font-weight: 400
+    font-size: 14px
+    color: #59606D
+  &_price
+    font-weight: 700
+    font-size: 14px
+    color: #1F1F1F
